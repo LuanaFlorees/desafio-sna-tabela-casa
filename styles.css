@@ -1,0 +1,23 @@
+/* Estilo único para a tabela */
+.tabela-casa {
+    width: 80%; /* Ajusta a largura da tabela conforme necessário */
+    max-width: 600px; /* Define uma largura máxima */
+    margin: 20px auto; /* Adiciona margem superior e inferior e centraliza a tabela */
+    border-collapse: collapse;
+}
+
+.tabela-casa th, .tabela-casa td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+}
+
+.tabela-casa th {
+    background-color: #00C4B4;
+    color: #fff;
+}
+
+.tabela-casa td {
+    background-color: #424250;
+    color: #fff;
+}
